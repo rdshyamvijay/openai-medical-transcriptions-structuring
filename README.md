@@ -17,7 +17,7 @@ The workflow showcases how large language models (LLMs) can be applied in health
 ## Setup Instructions
 
 ### 1. Clone the repository
-```bash
+
 git clone https://github.com/rdshyamvijay/medical-transcription-icd10-extractor.git
 cd medical-transcription-icd10-extractor
 
@@ -39,7 +39,7 @@ cp .env.example .env
 Edit .env and add your OpenAI API key:
 
 OPENAI_API_KEY=sk-xxxxxx
-bash```
+
 
 ⸻
 
