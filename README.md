@@ -41,7 +41,7 @@ Edit .env and add your OpenAI API key:
 OPENAI_API_KEY=sk-xxxxxx
 
 
-⸻
+
 
 ## How It Works
 	1.	Load dataset
@@ -69,7 +69,7 @@ df_structured.to_csv("df_structured.csv", index=False)
 
 
 
-⸻
+
 
 ## Usage
 
@@ -78,7 +78,7 @@ Run the script in a notebook or as a .py file:
 python script.py
 
 
-⸻
+
 
 ## Requirements
 	•	Python 3.9+
@@ -86,16 +86,16 @@ python script.py
 	•	openai
 	•	python-dotenv
 
-⸻
+
 
 ## Limitations
 	•	ICD-10 mapping is AI-assisted and may not always be accurate. It should not be used for clinical decision-making without human verification.
 	•	Prompts are tuned for this dataset; different datasets may need adjustments.
 
-⸻
+
 
 License
 
 This project is released under the MIT License.
 
----
+
