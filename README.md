@@ -43,7 +43,7 @@ OPENAI_API_KEY=sk-xxxxxx
 
 ⸻
 
-How It Works
+## How It Works
 	1.	Load dataset
 A CSV file (data/transcriptions.csv) with two columns:
 	•	medical_specialty
@@ -71,7 +71,7 @@ df_structured.to_csv("df_structured.csv", index=False)
 
 ⸻
 
-Usage
+## Usage
 
 Run the script in a notebook or as a .py file:
 
@@ -80,7 +80,7 @@ python script.py
 
 ⸻
 
-Requirements
+## Requirements
 	•	Python 3.9+
 	•	pandas
 	•	openai
@@ -88,7 +88,7 @@ Requirements
 
 ⸻
 
-Limitations
+## Limitations
 	•	ICD-10 mapping is AI-assisted and may not always be accurate. It should not be used for clinical decision-making without human verification.
 	•	Prompts are tuned for this dataset; different datasets may need adjustments.
 
